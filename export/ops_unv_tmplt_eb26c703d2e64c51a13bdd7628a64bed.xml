@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-11-29 10:06:18" unload_format="1" unload_table="ops_unv_tmplt" unload_version="6.7.0.0"><ops_unv_tmplt action="INSERT_OR_UPDATE"><credentials_var/><agent/><icon_date_created>2017-11-06 01:49:13</icon_date_created><sys_updated_on>2019-09-13 11:57:42</sys_updated_on><output_return_text/><sys_updated_by>asaglam</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><agent_cluster_var/><agent_cluster_var_check>false</agent_cluster_var_check><wait_for_output>false</wait_for_output><sys_created_by>ops.admin</sys_created_by><output_return_nline>500</output_return_nline><exit_code_text/><exit_code_fr>0</exit_code_fr><runtime_dir/><output_return_type>6</output_return_type><script/><broadcast_cluster_var_check>false</broadcast_cluster_var_check><agent_type>2</agent_type><script_type_windows/><automatic_output_fr>0</automatic_output_fr><agent_cluster/><name>S3 Boto3 Copy File to S3</name><exit_codes>0</exit_codes><broadcast_cluster/><use_common_script>false</use_common_script><credentials/><icon_filesize>4253</icon_filesize><icon>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</icon><credential_fr>0</credential_fr><description>Copy file from agent to S3 Bucket using boto library</description><environment_variables_fr>0</environment_variables_fr><agent_var/><icon_filename>aws_icon.png</icon_filename><sys_id>eb26c703d2e64c51a13bdd7628a64bed</sys_id><variable_prefix>s3</variable_prefix><script_windows/><credentials_var_check>false</credentials_var_check><agent_fr>0</agent_fr><agent_var_check>false</agent_var_check><output_failure_only>false</output_failure_only><output_return_sline>1</output_return_sline><output_type>1</output_type><desktop_interact>false</desktop_interact><script_unix>#!/opt/universal/python3.6/bin/python3
+###############################################################################
+#
+#    Name: s3_boto_copy_file_to_S3_sb.py
+#
+#    Purpose: Copies a file to S3
+#             All message not related to the S3 CLI
+#             command are written to standard err.
+#
+#
+#    Prerequisites:
+#     - Universal Agent for Windows/Linux
+#     - Python 2.7.x
+#     - Requires the Python modules
+#     - datetime, boto3 , botocore, argparse, sys
+#     - Note: module can be added using pip
+#     - e.g. use: pip install boto3
+#
+#     Version History:
+#     0.9  Bryant Hardy 2017-11-05 Initial Version
+#     1.0  Nils Buer 2017-11-09    using SB Code standards
+#     2.0  Nils Buer 2018-04-04    logging and credentials
+#     3.0  A Saglam  2019-08-19    changes for Axa
+#     3.1  Nils Buer 2019-09-13    PWD print removed old function removed
+#
+###############################################################################
+
+# Used modules
+import argparse
+import datetime
+import boto3
+import botocore
+import logging
+import os
+from botocore.config import Config
+from botocore import exceptions
+import fnmatch
+version = "3.1"
+
+# -- loglevel settings INFO,DEBUG, WARNING, ERROR, CRITICAL
+# logging.basicConfig(level=logging.${ops_s3_loglevel},
+# format=' %(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level="${ops_s3_loglevel}",
+                    format=' %(asctime)s - %(levelname)s - %(message)s')
+
+
+def main():
+    set_variables()  # from Universal Task Form or Command Line Input
+    sb_s3_con = SbAws("${_credentialPwd('${ops_s3_aws_access_key_id}')}",
+                      "${_credentialPwd('${ops_s3_aws_secret_access_key}')}",
+                      "${_credentialPwd('${ops_s3_aws_default_region}')}",
+                      "${ops_s3_useproxy}",
+                      "${ops_s3_proxy_type}",
+                      "${_credentialUser('${ops_s3_proxycred}')}",
+                      "${_credentialPwd('${ops_s3_proxycred}')}",
+                      "${ops_s3_proxy}",
+                      "${ops_s3_port}")
+    sb_s3_con.copy_all_files_to_s3("${ops_s3_sourcefile}",
+                                   "${ops_s3_bucketname}",
+                                   "${ops_s3_overwrite}",
+                                   "${ops_s3_operation}")
+
+
+# from Universal Task Form or Command Line Input
+def set_variablesx():
+    parser = argparse.ArgumentParser(
+        description='Purpose : List the content of a bucket')
+    # ## --&gt; AWS Connection Settings:
+    parser.add_argument("--useproxy", default="${ops_s3_useproxy}")
+    parser.add_argument("--port", default="${ops_s3_port}")
+    parser.add_argument("--proxy", default="${ops_s3_proxy}")
+    parser.add_argument("--proxyuser",
+                        default="${_credentialUser('${ops_s3_proxycred}')}")
+    parser.add_argument("--proxypwd",
+                        default="${_credentialPwd('${ops_s3_proxycred}')}")
+    parser.add_argument("--AWS_ACCESS_KEY_ID",
+                        default=""
+                        "${_credentialPwd('${ops_s3_aws_access_key_id}')}")
+    parser.add_argument("--AWS_SECRET_ACCESS_KEY",
+                        default=""
+                        "${_credentialPwd('${ops_s3_aws_secret_access_key}')}")
+    parser.add_argument("--AWS_DEFAULT_REGION",
+                        default=""
+                        "${_credentialPwd('${ops_s3_aws_default_region}')}")
+
+    # ## --&gt;S3 CLI specific Settings
+    parser.add_argument("--overwrite", default="${ops_s3_overwrite}")
+    parser.add_argument("--sourcefile", default="${ops_s3_sourcefile}")
+    parser.add_argument("--s3key", default="${ops_s3_s3key}")
+    parser.add_argument("--bucketname", default="${ops_s3_bucketname}")
+
+    # ## --
+    global args
+    args = parser.parse_args()
+    logging.info("Executing version " +
+                 version + " with the following parameters")
+    logging.info(args)
+
+
+def set_variables():
+    logging.info(
+        "Executing version " + version + " with the following parameters")
+    logging.info('####### Parameters:')  # print out all parameters
+    logging.info(r'bucket name: ${ops_s3_bucketname}')
+    logging.info(r'source file_file_name: ${ops_s3_sourcefile}')
+    logging.info(r'Use Proxy: ${ops_s3_useproxy}')
+    logging.info(r'Proxy Host: ${ops_s3_proxy}')
+    logging.info(r'Proxy Port: ${ops_s3_port}')
+    logging.info(r"Proxy User: ${_credentialUser('${ops_s3_proxycred}')} ")
+    # logging.info(r"Proxy Password: ${_credentialPwd('${ops_s3_proxycred}')}")
+    logging.info(r'Overwrite: ${ops_s3_overwrite}')
+    logging.info(r'Operation: ${ops_s3_operation}')
+
+
+class SbAws:
+    """Stonebranch Amazon Web Services Class for python
+
+    This class is written for file operations
+    to and from AWS
+
+    Attributes:
+        _storage_client: keeps the resource identifier
+        _region_name: region name
+    """
+    def __init__(self,
+                 aws_access_key_id,
+                 aws_secret_access_key,
+                 region_name,
+                 use_proxy="0",
+                 proxy_type="http",
+                 proxy_user=None,
+                 proxy_passwd=None,
+                 proxy_host=None,
+                 proxy_port=None):
+        self._storage_client = None
+        self._storage_resource = None
+        self._region_name = region_name
+        self.connect_aws(aws_access_key_id,
+                         aws_secret_access_key,
+                         region_name,
+                         use_proxy,
+                         proxy_type,
+                         proxy_user,
+                         proxy_passwd,
+                         proxy_host,
+                         proxy_port)
+
+    def __del__(self):
+        self._storage_client = None
+        self._storage_resource = None
+
+    def connect_aws(self, aws_access_key_id,
+                    aws_secret_access_key,
+                    region_name,
+                    use_proxy="0",
+                    proxy_type="http",
+                    proxy_user=None,
+                    proxy_passwd=None,
+                    proxy_host=None,
+                    proxy_port=None):
+        """Connects to cloud.
+
+        Connects to the cloud with or without proxy
+        Assigns the resource id to _storage_client
+
+        Args:
+            aws_access_key_id: Aws access key id
+            aws_secret_access_key: Aws access key
+            region_name: Region name
+            use_proxy: proxy use flag, 0 or 1
+            proxy_type: proxy type, http or https
+            proxy_user: proxy user information
+            proxy_passwd: proxy password information
+            proxy_host: proxy host information
+            proxy_port: proxy port information
+
+        Returns:
+            -
+
+        Raises:
+            -
+        """
+        logging.debug('Establishing connection')
+        if use_proxy in "Yes,true,True":
+            # connection via Proxy
+            logging.info('S3 Connection via Proxy: %s' % proxy_host)
+            if proxy_type == "https":
+                os.environ['https_proxy'] = "https://%s:%s@%s:%s" % (
+                    proxy_user, proxy_passwd, proxy_host, proxy_port)
+            else:
+                os.environ['http_proxy'] = "http://%s:%s" % (
+                    proxy_host, proxy_port)
+        else:
+            # connection without Proxy
+            # Create a S3 client, provide the AWS credentials, provide proxy
+            logging.info('Direct S3 Connection without Proxy')
+        s3client = boto3.client(
+            's3',
+            aws_access_key_id=aws_access_key_id,
+            aws_secret_access_key=aws_secret_access_key,
+            region_name=region_name)
+        self._storage_client = s3client
+        s3resource = boto3.resource(
+            's3',
+            aws_access_key_id=aws_access_key_id,
+            aws_secret_access_key=aws_secret_access_key,
+            region_name=region_name)
+        self._storage_resource = s3resource
+
+    def __check_file_exist_in_bucket(self, key, bucket_name):
+        """Checks for file in S3 bucket.
+
+        Checks if file is in S3 bucket
+
+        Args:
+            bucket_name: bucket name
+
+        Returns:
+            True if the file exists
+            False if the file does not exist
+
+        Raises:
+            -
+        """
+        try:
+            self._storage_resource.Object('%s' % bucket_name, '%s' % key).load()
+        except botocore.exceptions.ClientError as e:
+            if e.response['Error']['Code'] == "404":
+                logging.debug('Key: %s does not exist' % key)
+                return False
+        else:
+            logging.info('Key: %s already exist' % key)
+            return True
+
+    def copy_all_files_to_s3(self, source_file,
+                             bucket_name,
+                             overwrite="true",
+                             operation="copy"):
+        """Copies all files to S3.
+
+        Copies all files matching the pattern to S3
+
+        Args:
+            source_file: source file with unix pattern
+            bucket_name: bucket name
+            overwrite: overwrites if the value is "true",
+                otherwise adds a timestamp
+
+        Returns:
+            -
+
+        Raises:
+            -
+        """
+        dir_name, filename = os.path.split(os.path.abspath(source_file))
+        files = fnmatch.filter(os.listdir(dir_name), filename)
+        logging.info("files matching:" + str(files))
+        transfer_success = True
+        for file in files:
+            full_path = dir_name + "/" + file
+            if self.copy_file_to_s3_param(full_path,
+                                          bucket_name,
+                                          file,
+                                          overwrite) is True:
+                if operation == "move":
+                    self.delete_file_on_disk(full_path)
+            else:
+                transfer_success = False
+        if transfer_success is False:
+            logging.error('There has been some errors!')
+            exit(1)
+
+    def copy_file_to_s3_param(self,
+                              full_path,
+                              bucket_name,
+                              target_file_name,
+                              overwrite):
+        """Copies file to S3 target bucket.
+
+        Copies source file in parameter to S3 target bucket
+
+        Args:
+            full_path: source file path
+            bucket_name: bucket name
+            target_file_name: target file name
+            overwrite: overwrites if the value is "true",
+                otherwise adds a timestamp ".%Y-%m-%dT%H:%M:%S%z"
+                to the file name
+
+        Returns:
+            -
+
+        Raises:
+            -
+        """
+        if not target_file_name.strip():
+            dir_name, file_name = os.path.split(os.path.abspath(full_path))
+        else:
+            file_name = target_file_name
+
+        if self.__check_file_exist_in_bucket(file_name, bucket_name):
+            if overwrite in "true,True,replace,Overwrite":
+                logging.info(
+                    'Key: %s exists and '
+                    'will be overwritten due to overwrite flag set' %
+                    file_name)
+                try:
+                    self._storage_client.upload_file('%s' % full_path,
+                                                     bucket_name,
+                                                     file_name)
+                except botocore.exceptions.ClientError as e:
+                    logging.error(e)
+                    exit(1)
+            elif overwrite in "wt,Timestamp":
+                # logging.error('Key: %s exists and will not be overwritten,
+                # set overwrite flag' % (file_name))
+                # exit(1)
+                timestamp = str(
+                    datetime.datetime.now().strftime(".%Y-%m-%dT%H:%M:%S%z"))
+                logging.info(
+                    'Key: %s exists and '
+                    'new one will be renamed with timestamp %s' %
+                    (file_name, timestamp))
+                try:
+                    self._storage_client.upload_file('%s' % full_path,
+                                                     bucket_name,
+                                                     file_name + timestamp)
+                except botocore.exceptions.ClientError as e:
+                    logging.error(e)
+                    exit(1)
+            elif overwrite in "false,False,new":
+                logging.error(
+                    'File: %s exists and will not be overwritten, '
+                    'set overwrite flag' % file_name)
+                return False
+            else:
+                logging.error('Unknown overwrite option, exiting')
+                exit(1)
+        else:
+            try:
+                self._storage_client.upload_file('%s' %
+                                                 full_path,
+                                                 bucket_name,
+                                                 file_name)
+            except botocore.exceptions.ClientError as e:
+                logging.error(e)
+                exit(1)
+            logging.info(
+                'Finished uploading file: %s, to bucket: %s as key: %s' %
+                (full_path, bucket_name, file_name))
+        return True
+
+    @staticmethod
+    def delete_file_on_disk(file_name):
+        """Delete a file that exists on disk.
+
+        Deletes a file that exists on local disk
+
+        Args:
+            file_name: file name to be checked
+
+        Returns:
+            True if the file exists
+            False if the file does not exist
+
+        Raises:
+            -
+        """
+        try:
+            os.remove(file_name)
+        except OSError as e:  # operation failed, report it back to the user
+            logging.error("Error: %s - %s." % (e.filename, e.strerror))
+            return False
+        else:
+            logging.info("File %s deleted successfully" % file_name)
+            return True
+
+
+# main function call
+main()</script_unix><output_return_file/><run_as_sudo>false</run_as_sudo><broadcast_cluster_var/><environment/><elevate_user>false</elevate_user><exit_code_output/><exit_code_processing>1</exit_code_processing><create_console>false</create_console><related_items_node><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>29e6b1faea1a405d8aa6ea6a668f9320</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>proxy</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>2</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>IP or Hostname of the Proxy Server</hint><field_mapping>textField3</field_mapping><name>proxy</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>true</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>32347750d98d45f58bb1e7ad8caf9598</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>AWS_DEFAULT_REGION</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>8</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>AWS_DEFAULT_REGION</hint><field_mapping>credentialField2</field_mapping><name>aws_default_region</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>33aba4bcb6084093b5c443957e598bdf</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>s3key</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>4</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>Name of the keyfile in S3</hint><field_mapping>textField5</field_mapping><name>s3key</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-09-13 07:52:59</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>365286281db0443184aa561c313d9721</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-09-13 07:52:59</sys_created_on><field_value>copy</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>operation</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>17</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>copy or move the file</hint><field_mapping>choiceField3</field_mapping><name>operation</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>3ccebc5c36054dbc9d7549682c89d8e3</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>proxy port</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>3</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>port of the proxy server</hint><field_mapping>textField4</field_mapping><name>port</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>515bb017910549c1940db5cd0b74b5a7</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>proxycred</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>6</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>credentialField1</field_mapping><name>proxycred</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>true</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>7e73b3c46a3e49aaa63d1a6ac7bc4b7b</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Bucket Name</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>1</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>Name of target AWS bucket</hint><field_mapping>textField2</field_mapping><name>bucketname</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>true</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>89a7e9119e00442f8262778848f83280</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>AWS_ACCESS_KEY_ID</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>9</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>AWS_ACCESS_KEY_ID</hint><field_mapping>credentialField3</field_mapping><name>aws_access_key_id</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>true</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>b896ba04cad14a46876d71ac9cd20d8e</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>AWS_SECRET_ACCESS_KEY</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>10</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>AWS_SECRET_ACCESS_KEY</hint><field_mapping>credentialField4</field_mapping><name>aws_secret_access_key</name><field_regex/><field_type>5</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>be24035b4b5c435b91589800fa1045a2</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value>1</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Use Proxy</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>5</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>choiceField1</field_mapping><name>useproxy</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-09-13 14:10:45</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>db218504e2f040ecb2c5a95ac5f97c45</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-09-13 14:09:32</sys_created_on><field_value>false</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>overwrite</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>18</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>false,true, Timestamp (=if file exists a timestamp will be added to the target filename)</hint><field_mapping>choiceField4</field_mapping><name>overwrite</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>false</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>df468572ff9e4cedb22f9a094839d3a8</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value>INFO</field_value><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>loglevel</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>7</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint/><field_mapping>choiceField2</field_mapping><name>loglevel</name><field_regex/><field_type>4</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field action="INSERT_OR_UPDATE"><choice_sort_option>1</choice_sort_option><form_start_row>false</form_start_row><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><boolean_value_type>1</boolean_value_type><required>true</required><field_mask/><boolean_no_value/><require_if_field/><sys_id>e30508272f9b4a6186ff010288de2061</sys_id><require_if_field_value/><array_name_title/><sys_updated_by>ops.admin</sys_updated_by><array_value_title/><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value/><no_space_if_hidden>false</no_space_if_hidden><require_if_visible>false</require_if_visible><sys_created_by>ops.admin</sys_created_by><int_field_min/><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id><show_if_field/><boolean_yes_value/><form_col_span>1</form_col_span><field_length/><form_end_row>false</form_end_row><label>Source File</label><int_field_max/><choice_allow_empty>false</choice_allow_empty><sequence>0</sequence><show_if_field_value/><form_row_span>1</form_row_span><default_list_view>false</default_list_view><hint>Name of local file to copy</hint><field_mapping>textField1</field_mapping><name>sourcefile</name><field_regex/><field_type>1</field_type></ops_unv_tmplt_field><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>db218504e2f040ecb2c5a95ac5f97c45</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>216776d433d54701bb9fec7a6d232ba1</sys_id><sequence>2</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-09-13 14:09:54</sys_created_on><field_value_label>Timestamp</field_value_label><field_value>Timestamp</field_value><sys_updated_on>2019-09-13 14:09:54</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>be24035b4b5c435b91589800fa1045a2</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>3306e3ab5c4e40f2b159f3cfc1f4aca9</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>Yes</field_value_label><field_value>1</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>db218504e2f040ecb2c5a95ac5f97c45</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>40f26763181b413e9f5774f216dbae87</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-09-13 14:09:40</sys_created_on><field_value_label>false</field_value_label><field_value>false</field_value><sys_updated_on>2019-09-13 14:09:40</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>df468572ff9e4cedb22f9a094839d3a8</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>59a1cd7c6186462fa0f31c87b8aef6b4</sys_id><sequence>3</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>ERROR</field_value_label><field_value>ERROR</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>df468572ff9e4cedb22f9a094839d3a8</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>72270aff6614415fae3c8344b82353cd</sys_id><sequence>4</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>CRITICAL</field_value_label><field_value>CRITICAL</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>df468572ff9e4cedb22f9a094839d3a8</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>91475918d1ff4cd299dc8841da0efb0c</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>DEBUG</field_value_label><field_value>DEBUG</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>365286281db0443184aa561c313d9721</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>9321b39247154333ab9dc11cda35c957</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-09-13 07:53:03</sys_created_on><field_value_label>copy</field_value_label><field_value>copy</field_value><sys_updated_on>2019-09-13 07:53:03</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>df468572ff9e4cedb22f9a094839d3a8</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>a89e288e9b824e13b9892623bd06530e</sys_id><sequence>2</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>WARNING</field_value_label><field_value>WARNING</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>db218504e2f040ecb2c5a95ac5f97c45</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>afb1efad43804859bc0abe7f73b420ee</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-09-13 14:09:47</sys_created_on><field_value_label>true</field_value_label><field_value>true</field_value><sys_updated_on>2019-09-13 14:09:47</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>be24035b4b5c435b91589800fa1045a2</field_id><use_field_value_for_label>false</use_field_value_for_label><sys_id>bcc4e6d4895b4b16a8dda4922d9ff778</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>No</field_value_label><field_value>0</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>df468572ff9e4cedb22f9a094839d3a8</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>c9843a996a5d4a4e8b86d702d7e01dc5</sys_id><sequence>0</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-05-03 11:14:43</sys_created_on><field_value_label>INFO</field_value_label><field_value>INFO</field_value><sys_updated_on>2019-05-03 11:14:43</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice><ops_unv_tmplt_field_choice action="INSERT_OR_UPDATE"><field_id>365286281db0443184aa561c313d9721</field_id><use_field_value_for_label>true</use_field_value_for_label><sys_id>e6f897ac214541beaffc3ff16e845349</sys_id><sequence>1</sequence><sys_updated_by>ops.admin</sys_updated_by><sys_created_on>2019-09-13 07:53:08</sys_created_on><field_value_label>move</field_value_label><field_value>move</field_value><sys_updated_on>2019-09-13 07:53:08</sys_updated_on><sys_created_by>ops.admin</sys_created_by><universal_template_id>eb26c703d2e64c51a13bdd7628a64bed</universal_template_id></ops_unv_tmplt_field_choice></related_items_node></ops_unv_tmplt></unload>
