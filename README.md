@@ -48,6 +48,8 @@ The following Universal Task for AWS S3 have been implemented:
 
 Image 1:
 
+![](images/image1.png)
+
 # 4. 	Installation
 # 4.1	Software Requirements
 **Universal Task name:** ut-aws-s3-linux
@@ -106,24 +108,30 @@ In a command shell run as root or sudo:
 Go to “All Tasks” and load via the Import functionality the Universal Task configuration into the Controller. 
 
  Image 2:
+ ![](images/image2.png)
  
  Image 3:
+ ![](images/image3.png)
  
 # 5.	Universal Task Configuration
 **1.	Activate: Resolvable Credentials in Universal Automation Center:**
 
 Image 4:
+![](images/image4.png)
+
 
 **2.	Fill Out the Universal Task for each AWS command, which you want to execute:**
 In the example below the S3 Boto3 Create Bucket Task was selected
 
 Image 5:
+![](images/image5.png)
 
 **Fill out or select the required Credentials for AWS and optionally a Proxy Server**
 
 In the example below the AWS-SECRET-ACCESS-KEY credentials are shown:
 
 Image 6:
+![](images/image6.png)
 
 
 # 6. Universal Tasks for AWS S3
@@ -133,18 +141,22 @@ The following chapter describes the provided AWS S3 Universal Tasks.
 # 6.1 Create-Bucket
 
 Image 7:
+![](images/image7.png)
 
 **Task Screenshot:**
 
 Image 8:
+![](images/image8.png)
 
 **Field Description:**
 
 Image 9:
+![](images/image9.png)
 
 # 6.2 Monitor-key-in-bucket
 
 Image 10:
+![](images/image10.png)
 
 **Task Screenshot:**
 
